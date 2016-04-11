@@ -9,14 +9,15 @@ merge the results. The basic layout is as follows.
 ```sh
 Fractals370.tex     # This is just a wrapper. It includes some files, such as a headings file
                     # and each chapter
-                    
+
+headings.tex        # This contains all the packages, etc. This should have everything we need
+                    # but if not let me know
+
 tex/                # This is the directory where you will be working. Don't mess w/ anything else.
                     # If you do need to change something in headings.tex, let me know and I'll update
                     # the file. This is to keep us from trying to merge multiple changes to the file
                     # simultaneously
                     
-    headings.tex        # This contains all the packages, etc. This should have everything we need
-                        # but if not let me know
     introduction.tex    # An introductory chapter explaining what fractals are -- basically a stronger 
                         # abstract
     nature.tex          # This will include the fractals in nature portion of the paper
