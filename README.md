@@ -9,28 +9,37 @@ merge the results. The basic layout is as follows.
 ```sh
 Fractals370.tex     # This is just a wrapper. It includes some files, such as a headings file
                     # and each chapter
-headings.tex        # This contains all the packages, etc. This should have everything we need
-                    # but if not let me know
-introduction.tex    # An introductory chapter explaining what fractals are -- basically a stronger 
-                    # abstract
-nature.tex          # This will include the fractals in nature portion of the paper
-sierpinski.tex      # This is the Sierpinski's Triangle portion of the paper. This can be split 
-                    # into two files if it's easier to work that way. Just create files 
-                    #   - sierpinski1.tex
-                    #   - sierpinski2.tex
-                    # and write \include{sierpinski1.tex} and \include{sierpinski2.tex} in the body
-                    # of sierpinski.tex
-measuretheory.tex   # Measure theory and fractional dimension (maybe some talk of dimensionality in
-                    # the Sierpinksi chapter. Scott will elaborate on this
-complexdynamics.tex # Working with Julia, Mandelbrot sets and Newton Fractals.
-appendix.tex        # Maybe if anyone has anything extra to add that doesn't fit in the flow
+                    
+tex/                # This is the directory where you will be working. Don't mess w/ anything else.
+                    # If you do need to change something in headings.tex, let me know and I'll update
+                    # the file. This is to keep us from trying to merge multiple changes to the file
+                    # simultaneously
+                    
+    headings.tex        # This contains all the packages, etc. This should have everything we need
+                        # but if not let me know
+    introduction.tex    # An introductory chapter explaining what fractals are -- basically a stronger 
+                        # abstract
+    nature.tex          # This will include the fractals in nature portion of the paper
+    sierpinski.tex      # This is the Sierpinski's Triangle portion of the paper. This can be split 
+                        # into two files if it's easier to work that way. Just create files 
+                        #   - sierpinski1.tex
+                        #   - sierpinski2.tex
+                        # and write \include{sierpinski1.tex} and \include{sierpinski2.tex} in the body
+                        # of sierpinski.tex
+    measuretheory.tex   # Measure theory and fractional dimension (maybe some talk of dimensionality in
+                        # the Sierpinksi chapter. Scott will elaborate on this
+    complexdynamics.tex # Working with Julia, Mandelbrot sets and Newton Fractals.
+    appendix.tex        # Maybe if anyone has anything extra to add that doesn't fit in the flow
+
 img/                # Directory for image files. Maybe prepend section name to images to avoid naming
                     # conficts. For example, I would add an image like 'cd_julia01.jpg' since I'm
                     # working on complex dynamics
 ```
 
 ## Adding to files
+
 ### Dividing Content
+
 At the top of each included `tex` file I've written `\chapter{Chapter Name}`. This will add it to the  table of contents and number any theorems appropriately (i.e. the first theorem in Chapter 2 will be labeled **Theorem 2.1**).
 
 To divide content we can use `\section{Section Name}` and `\subsection{Subsection Name}`. This will add to the table of contents and make things look cleaner. Also it takes up vertical space ;)
