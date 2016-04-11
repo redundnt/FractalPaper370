@@ -38,10 +38,10 @@ To divide content we can use `\section{Section Name}` and `\subsection{Subsectio
 ### Theorems and Proofs
 In the headings file I've included some basic formatting stuff such as 
 
-    Theorem environment:     `\begin{thm} *Theorem stuff* \end{thm}`
-    Proof environment:       `\begin{prf} *Proofy stuff* \end{prf}`
-    Definition environment:  `\begin{dfn} *Definition stuff* \end{dfn}`
-    Blackboard Stuff:        `\R, \Q, \Z, \C, \D, \H, etc
+    Theorem environment:     \begin{thm} *Theorem stuff* \end{thm}
+    Proof environment:       \begin{prf} *Proofy stuff* \end{prf}
+    Definition environment:  \begin{dfn} *Definition stuff* \end{dfn}
+    Blackboard Stuff:        \R, \Q, \Z, \C, \D, \H, etc
 
 ### The Index
 I've also included an index. I've shown a basic usage example in `introduction.tex`. It's pretty simple; if we want to add a term to the index we write after the usage of the term `\index{term-name}`. If more than one instance of `\index{term-name}` comes up then multiple page numbers will be added if needed.
