@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.8)  10 APR 2016 21:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.8)  11 APR 2016 12:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,8 +23,7 @@ File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/home/ben/shared/latex/headings/headings.tex
+) (./tex/headings.tex
 (/usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
 Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
 
@@ -396,17 +395,15 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-\c@prb=\count136
 
+Package amsthm Warning: Unknown theoremstyle `theorem' on input line 43.
 
-Package amsthm Warning: Unknown theoremstyle `theorem' on input line 45.
-
-\c@cor=\count137
-\c@thm=\count138
+\c@cor=\count136
+\c@thm=\count137
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 161.
+Package hyperref Info: Option `colorlinks' set `true' on input line 156.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
@@ -475,7 +472,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count139
+\c@section@level=\count138
 )
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
@@ -488,16 +485,16 @@ LaTeX Info: Redefining \nameref on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count140
+\scratchcounter=\count139
 \scratchdimen=\dimen149
 \scratchbox=\box35
-\nofMPsegments=\count141
-\nofMParguments=\count142
+\nofMPsegments=\count140
+\nofMParguments=\count141
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count143
+\MPscratchCnt=\count142
 \MPscratchDim=\dimen150
-\MPnumerator=\count144
-\makeMPintoPDFobject=\count145
+\MPnumerator=\count143
+\makeMPintoPDFobject=\count144
 \everyMPtoPDFconversion=\toks34
 )
 *geometry* driver: auto-detecting
@@ -512,7 +509,7 @@ LaTeX Info: Redefining \nameref on input line 6.
 * v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=410.00462pt
+* \textwidth=430.00462pt
 * \textheight=556.47656pt
 * \oddsidemargin=19.8752pt
 * \evensidemargin=19.8752pt
@@ -534,7 +531,7 @@ LaTeX Info: Redefining \nameref on input line 6.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count146
+\c@lstlisting=\count145
 LaTeX Font Info:    Try loading font information for U+msa on input line 11.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -555,30 +552,30 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \tf@toc=\write5
 \openout5 = `Fractals370.toc'.
 
- (./introduction.texpdfTeX warning (ext4): destination with the same identifier
- (name{page.1}) has been already used, duplicate ignored
+ (./tex/introduction.texpdfTeX warning (ext4): destination with the same identi
+fier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
             *{Introduction} [1
 
-]) (./nature.tex [2
+]) (./tex/nature.tex [2
 
 ]
 Chapter 1.
-) (./sierpinski.tex [3
+) (./tex/sierpinski.tex [3
 
 ]
 Chapter 2.
-) (./measuretheory.tex [4
+) (./tex/measuretheory.tex [4
 
 ]
 Chapter 3.
-) (./complexdynamics.tex [5
+) (./tex/complexdynamics.tex [5
 
 ]
 Chapter 4.
-) (./appendix.tex) [6
+) (./tex/appendix.tex) [6
 
 ] (./Fractals370.ind [7
 
@@ -595,19 +592,19 @@ Package rerunfilecheck Info: File `Fractals370.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 9097 strings out of 493304
- 130534 string characters out of 6139872
- 250341 words of memory out of 5000000
- 12388 multiletter control sequences out of 15000+600000
+ 9082 strings out of 493304
+ 130425 string characters out of 6139872
+ 250084 words of memory out of 5000000
+ 12373 multiletter control sequences out of 15000+600000
  13217 words of font info for 51 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 43i,7n,40p,317b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,7n,40p,289b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Fractals370.pdf (8 pages, 69781 bytes).
+Output written on Fractals370.pdf (8 pages, 70392 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
