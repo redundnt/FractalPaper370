@@ -31,12 +31,9 @@ img/                # Directory for image files. Maybe prepend section name to i
 
 ## Adding to files
 ### Dividing Content
-At the top of each included `tex` file I've written `\chapter{Chapter Name}`. This will add it to the 
-table of contents and number any theorems appropriately (i.e. the first theorem in Chapter 2 will be
-labeled **Theorem 2.1**).
+At the top of each included `tex` file I've written `\chapter{Chapter Name}`. This will add it to the  table of contents and number any theorems appropriately (i.e. the first theorem in Chapter 2 will be labeled **Theorem 2.1**).
 
-To divide content we can use `\section{Section Name}` and `\subsection{Subsection Name}`. This will add
-to the table of contents and make things look cleaner. Also it takes up vertical space ;)
+To divide content we can use `\section{Section Name}` and `\subsection{Subsection Name}`. This will add to the table of contents and make things look cleaner. Also it takes up vertical space ;)
 
 ### Theorems and Proofs
 In the headings file I've included some basic formatting stuff such as 
@@ -47,18 +44,14 @@ In the headings file I've included some basic formatting stuff such as
     Blackboard Stuff:        `\R, \Q, \Z, \C, \D, \H, etc
 
 ### The Index
-I've also included an index. I've shown a basic usage example in `introduction.tex`. It's pretty simple;
-if we want to add a term to the index we write after the usage of the term `\index{term-name}`. If more
-than one instance of `\index{term-name}` comes up then multiple page numbers will be added if needed.
+I've also included an index. I've shown a basic usage example in `introduction.tex`. It's pretty simple; if we want to add a term to the index we write after the usage of the term `\index{term-name}`. If more than one instance of `\index{term-name}` comes up then multiple page numbers will be added if needed.
 
 ## Compiling
-I'm not sure how to add this project to an environment but it should be pretty straight forward. On 
-Linux/Unix environments compiling the tex file is simple.
+I'm not sure how to add this project to an environment but it should be pretty straight forward. On Linux/Unix environments compiling the tex file is simple.
 
 1. `makeindex Fractals370`
     * This will create an index file for `pdflatex` to incorporate
 2. `pdflatex Fractals370.tex`
     * This makes the pdf file.
 
-I have to run these in succession a few times to make the pdf file get an up-to-date table of contents
-and index.
+I have to run these in succession a few times to make the pdf file get an up-to-date table of contents and index.
