@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.8)  10 APR 2016 21:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.8)  10 APR 2016 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -590,25 +590,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
  (./Fractals370.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
-
-
-Package rerunfilecheck Warning: File `Fractals370.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Fractals370.out':
-(rerunfilecheck)             Before: E302CAF6460930CC52C12682F365C2DD;253
-(rerunfilecheck)             After:  4A94E291780DBC236B5DB64FA6DDE8E1;324.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `Fractals370.out' has not changed.
+(rerunfilecheck)             Checksum: 4A94E291780DBC236B5DB64FA6DDE8E1;324.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 9096 strings out of 493304
- 130523 string characters out of 6139872
+ 9097 strings out of 493304
+ 130534 string characters out of 6139872
  250341 words of memory out of 5000000
- 12387 multiletter control sequences out of 15000+600000
+ 12388 multiletter control sequences out of 15000+600000
  13217 words of font info for 51 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,7n,40p,317b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -617,10 +607,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Fractals370.pdf (8 pages, 68892 bytes).
+Output written on Fractals370.pdf (8 pages, 69781 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  15 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
