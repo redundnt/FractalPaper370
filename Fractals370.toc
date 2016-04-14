@@ -1,6 +1,8 @@
-\contentsline {section}{\numberline {0.1}What are fractals?}{2}{section.0.1}
-\contentsline {chapter}{\numberline {1}Fractals in Nature}{3}{chapter.1}
-\contentsline {chapter}{\numberline {2}Sierpinski's Gasket}{4}{chapter.2}
-\contentsline {chapter}{\numberline {3}Measure Theory and Fractal Dimension}{5}{chapter.3}
-\contentsline {chapter}{\numberline {4}Complex Dynamics}{6}{chapter.4}
-\contentsline {chapter}{Index}{7}{chapter.4}
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}What are fractals?}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Fractal Generation}{2}{section.1.2}
+\contentsline {chapter}{\numberline {2}Fractals in Nature}{4}{chapter.2}
+\contentsline {chapter}{\numberline {3}Sierpinski's Gasket}{5}{chapter.3}
+\contentsline {chapter}{\numberline {4}Measure Theory and Fractal Dimension}{6}{chapter.4}
+\contentsline {chapter}{\numberline {5}Complex Dynamics}{7}{chapter.5}
+\contentsline {chapter}{Index}{8}{chapter.5}

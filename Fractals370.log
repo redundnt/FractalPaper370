@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.8)  11 APR 2016 12:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.8)  14 APR 2016 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,7 +23,7 @@ File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./tex/headings.tex
+) (./headings.tex
 (/usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
 Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
 
@@ -359,6 +359,14 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@cols=\count134
 \TX@ftn=\toks31
 )
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen147
+\WF@size=\dimen148
+\c@WF@wrappedlines=\count135
+\WF@box=\box34
+\WF@everypar=\toks32
+Package: wrapfig 2003/01/31  v 3.6
+)
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
@@ -380,11 +388,11 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-\everycr=\toks32
+\everycr=\toks33
 \minrowclearance=\skip60
 )
 LaTeX Info: Redefining \color on input line 702.
-\rownum=\count135
+\rownum=\count136
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -396,14 +404,14 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 
-Package amsthm Warning: Unknown theoremstyle `theorem' on input line 43.
+Package amsthm Warning: Unknown theoremstyle `theorem' on input line 44.
 
-\c@cor=\count136
-\c@thm=\count137
+\c@cor=\count137
+\c@thm=\count138
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 156.
+Package hyperref Info: Option `colorlinks' set `true' on input line 157.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
@@ -460,10 +468,10 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\Gin@req@height=\dimen147
-\Gin@req@width=\dimen148
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
 )
-\AtBeginShipoutBox=\box34
+\AtBeginShipoutBox=\box35
 Package hyperref Info: Link coloring ON on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -472,7 +480,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count138
+\c@section@level=\count139
 )
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
@@ -485,17 +493,17 @@ LaTeX Info: Redefining \nameref on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count139
-\scratchdimen=\dimen149
-\scratchbox=\box35
-\nofMPsegments=\count140
-\nofMParguments=\count141
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count142
-\MPscratchDim=\dimen150
-\MPnumerator=\count143
-\makeMPintoPDFobject=\count144
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count140
+\scratchdimen=\dimen151
+\scratchbox=\box36
+\nofMPsegments=\count141
+\nofMParguments=\count142
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count143
+\MPscratchDim=\dimen152
+\MPnumerator=\count144
+\makeMPintoPDFobject=\count145
+\everyMPtoPDFconversion=\toks35
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -531,7 +539,7 @@ LaTeX Info: Redefining \nameref on input line 6.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count145
+\c@lstlisting=\count146
 LaTeX Font Info:    Try loading font information for U+msa on input line 11.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -557,27 +565,66 @@ fier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            *{Introduction} [1
-
-]) (./tex/nature.tex [2
+            {Introduction} [1
 
 ]
 Chapter 1.
-) (./tex/sierpinski.tex [3
+<img/bk_introkochgen.jpg, id=57, 402.50375pt x 416.55624pt>
+File: img/bk_introkochgen.jpg Graphic file (type jpg)
 
-]
+<use img/bk_introkochgen.jpg>
+Package pdftex.def Info: img/bk_introkochgen.jpg used on input line 14.
+(pdftex.def)             Requested size: 141.9023pt x 146.85197pt.
+
+Underfull \hbox (badness 1377) in paragraph at lines 18--26
+[][]\OT1/cmr/m/n/10.95 What this means in layterms is that a frac-tal
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 18--26
+\OT1/cmr/m/n/10.95 is a shape or set that has sim-i-lar prop-er-ties at
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 18--26
+\OT1/cmr/m/it/10.95 Curve \OT1/cmr/m/n/10.95 (Fig [][]1.1[][]) which looks iden
+-ti-cal at all lev-els
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 18--26
+\OT1/cmr/m/n/10.95 of mag-ni-fi-ca-tion. We should note that there are
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 18--26
+\OT1/cmr/m/n/10.95 upon in Chap-ter [][]4[][] which deals with mea-sure the-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+
+ []
+
+[2
+
+ <./img/bk_introkochgen.jpg>]) (./tex/nature.tex [3]
 Chapter 2.
-) (./tex/measuretheory.tex [4
+) (./tex/sierpinski.tex [4
 
 ]
 Chapter 3.
-) (./tex/complexdynamics.tex [5
+) (./tex/measuretheory.tex [5
 
 ]
 Chapter 4.
-) (./tex/appendix.tex) [6
+) (./tex/complexdynamics.tex [6
 
-] (./Fractals370.ind [7
+]
+Chapter 5.
+) (./tex/appendix.tex) [7
+
+] (./Fractals370.ind [8
 
 
 
@@ -588,26 +635,33 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
 Package rerunfilecheck Info: File `Fractals370.out' has not changed.
-(rerunfilecheck)             Checksum: 4A94E291780DBC236B5DB64FA6DDE8E1;324.
+(rerunfilecheck)             Checksum: D4895E601F50F2100E7C7EF859D38F90;444.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 9082 strings out of 493304
- 130425 string characters out of 6139872
- 250084 words of memory out of 5000000
- 12373 multiletter control sequences out of 15000+600000
- 13217 words of font info for 51 fonts, out of 8000000 for 9000
+ 9169 strings out of 493304
+ 131553 string characters out of 6139872
+ 254274 words of memory out of 5000000
+ 12447 multiletter control sequences out of 15000+600000
+ 13916 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 43i,7n,40p,289b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,7n,40p,285b,367s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Fractals370.pdf (8 pages, 70384 bytes).
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/m
+sbm10.pfb>
+Output written on Fractals370.pdf (9 pages, 156324 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 145 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 18 named destinations out of 1000 (max. 500000)
+ 70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
