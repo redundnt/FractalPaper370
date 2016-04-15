@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.8)  14 APR 2016 19:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.8)  14 APR 2016 20:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -378,6 +378,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
 (/usr/share/texmf/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
@@ -404,14 +412,14 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 
-Package amsthm Warning: Unknown theoremstyle `theorem' on input line 44.
+Package amsthm Warning: Unknown theoremstyle `theorem' on input line 45.
 
 \c@cor=\count137
 \c@thm=\count138
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 157.
+Package hyperref Info: Option `colorlinks' set `true' on input line 158.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
@@ -573,42 +581,89 @@ Chapter 1.
 File: img/bk_introkochgen.jpg Graphic file (type jpg)
 
 <use img/bk_introkochgen.jpg>
-Package pdftex.def Info: img/bk_introkochgen.jpg used on input line 14.
+Package pdftex.def Info: img/bk_introkochgen.jpg used on input line 15.
 (pdftex.def)             Requested size: 141.9023pt x 146.85197pt.
 
-Underfull \hbox (badness 1377) in paragraph at lines 18--26
-[][]\OT1/cmr/m/n/10.95 What this means in layterms is that a frac-tal
+Underfull \hbox (badness 2762) in paragraph at lines 19--28
+[][]\OT1/cmr/m/n/10.95 What this means in layterms is that a frac-
  []
 
 
-Underfull \hbox (badness 2426) in paragraph at lines 18--26
-\OT1/cmr/m/n/10.95 is a shape or set that has sim-i-lar prop-er-ties at
+Underfull \hbox (badness 4254) in paragraph at lines 19--28
+\OT1/cmr/m/n/10.95 tal is a shape or set that has sim-i-lar prop-er-
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 18--26
-\OT1/cmr/m/it/10.95 Curve \OT1/cmr/m/n/10.95 (Fig [][]1.1[][]) which looks iden
--ti-cal at all lev-els
+Underfull \hbox (badness 4582) in paragraph at lines 19--28
+\OT1/cmr/m/n/10.95 ties at all mag-ni-fi-ca-tions. We have a spe-cial
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 18--26
-\OT1/cmr/m/n/10.95 of mag-ni-fi-ca-tion. We should note that there are
+Underfull \hbox (badness 1742) in paragraph at lines 19--28
+\OT1/cmr/m/n/10.95 name for this prop-erty: \OT1/cmr/m/it/10.95 self sim-i-lar-
+ity[]\OT1/cmr/m/n/10.95 . A clas-
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 18--26
+Underfull \hbox (badness 3579) in paragraph at lines 19--28
+\OT1/cmr/m/n/10.95 sic ex-am-ple is the \OT1/cmr/m/it/10.95 Koch Curve \OT1/cmr
+/m/n/10.95 (Fig [][]1.1[][]) which
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 19--28
+\OT1/cmr/m/n/10.95 looks iden-ti-cal at all lev-els of mag-ni-fi-ca-tion. We
+ []
+
+
+Underfull \hbox (badness 6592) in paragraph at lines 19--28
+\OT1/cmr/m/n/10.95 which sat-isfy our def-i-ni-tion such as a straight
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 19--28
+\OT1/cmr/m/n/10.95 line. The dis-tinc-tion be-tween a true frac-tal and
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 19--28
+\OT1/cmr/m/n/10.95 a de-gen-er-ate case can be made with the no-
+ []
+
+
+Underfull \hbox (badness 7631) in paragraph at lines 19--28
+\OT1/cmr/m/n/10.95 tion of \OT1/cmr/m/it/10.95 frac-tal di-men-sion \OT1/cmr/m/
+n/10.95 which we will touch
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 19--28
 \OT1/cmr/m/n/10.95 upon in Chap-ter [][]4[][] which deals with mea-sure the-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--26
+Underfull \hbox (badness 10000) in paragraph at lines 19--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--40
 
  []
 
 [2
 
- <./img/bk_introkochgen.jpg>]) (./tex/nature.tex [3]
+ <./img/bk_introkochgen.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 41--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
+
+ []
+
+) (./tex/nature.tex [3]
 Chapter 2.
 ) (./tex/sierpinski.tex [4
 
@@ -639,11 +694,11 @@ Package rerunfilecheck Info: File `Fractals370.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 9169 strings out of 493304
- 131553 string characters out of 6139872
- 254274 words of memory out of 5000000
- 12447 multiletter control sequences out of 15000+600000
- 13916 words of font info for 53 fonts, out of 8000000 for 9000
+ 9251 strings out of 493304
+ 132443 string characters out of 6139872
+ 255526 words of memory out of 5000000
+ 12518 multiletter control sequences out of 15000+600000
+ 17298 words of font info for 64 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,7n,40p,285b,367s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -651,17 +706,19 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/m
-sbm10.pfb>
-Output written on Fractals370.pdf (9 pages, 156324 bytes).
+st/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Fractals370.pdf (9 pages, 185654 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 158 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
  18 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
