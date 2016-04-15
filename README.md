@@ -65,3 +65,61 @@ I'm not sure how to add this project to an environment but it should be pretty s
     * This makes the pdf file.
 
 I have to run these in succession a few times to make the pdf file get an up-to-date table of contents and index.
+
+## Working with git
+### Setup
+Figure out where you want the project to live. If I'm keeping it on desktop I navigate to my Desktop directory:
+```sh
+cd ~/Desktop
+```
+and then issue the command:
+```sh
+git clone https://github.com/redundnt/FractalPaper370.git
+```
+This puts the entire latex project (described above) in your Desktop directory. I can now edit it to my hearts content,
+save changes, compile, etc without changing anything anyone else is working on.
+### Stay Up To Date
+I recommend regularly issuing the command
+```sh
+git pull origin master
+```
+This pulls down any changes made by people in our group onto your computer. To make sure that we avoid conflicts I STRONGLY RECOMMEND that nobody work on files that aren't theirs to work on. I will stick to the introduction.tex and complexdynamics.tex files, for example.
+
+### Adding and Commiting
+After I've done some editing and I want to wrap up I have to add the changes I've done to git. This is easy. From the 
+home folder of the project I enter:
+```sh
+git add .
+```
+followed by
+```sh
+git commit -m "A message detailing what was done. Typically short like `Added some definitions`"
+```
+My local git repository is now ready to be pushed to github!
+
+### Pushing to Repository
+If you make any changes nobody will be able to see them until you put them back on github (and is downloaded by others).
+To do this, issue the command
+```sh 
+git push origin master
+```
+Github will then ask for your credentials. When I update my `bfg` repository it looks like this
+```git
+ben@bbeonx:~/Code/Sandbox/gitcollab/bfg$ git push origin master
+Username for 'https://github.com': bkushigian
+Password for 'https://bkushigian@github.com': 
+```
+Notice that the password doesn't appear (this is for security reasons, so don't freak out if you can't see the letters you're typing. If you screw up, just hold backspace down for a second or two to clear what you've entered).
+
+### Normal Git Workflow
+So when I start working on a project I will first `pull` to see if anything new is on the repository. I'll then work for a while and once I've finished for the day I will again `git add .` and `git commit -m "some message"`. Finally, once this is done, I issue the `git pull origin master` to see if anything has been added by others (if anyone has added something github won't let me push until I've pulled). Finally, once I'm up to date with everything on the repo I issue the 
+`git push origin master` and enter my credentials.
+So to clarify
+
+1. `git pull origin master`         # Get up to date with repo
+2. Edit some files. Save changes.
+3. `git add .`                      # Add my new work to the repository
+4. `git commit -m "message!"`       # Commit my messages to git (this includes all added changes)
+5. `git pull origin master`         # Double check to see if anyone has added something new
+6. `git push origin master`         # Push your changes to the repo!
+7. `git drunk`                      # You're done! Go party
