@@ -1,1 +1,22 @@
 \chapter{Complex Dynamics}
+\label{chap:complex dynamics}
+{Written by Ben Kushigian}
+\section{The Complex Plane}
+One of the most beautiful areas of mathematics is complex analysis. From 
+linear algebra we know that we may treat \(\R^2\) as a vector space with
+vector addition and scalar multiplication. It would be desirable to define
+a multiplicative operation \(* : \R^2 \times \R^2 \rightarrow \R \times \R\)
+that behaves similarly to multiplication in \(\R\). First, since \(R\) is a
+subset of \(\R^2\) we would like \((x,0) * (y,0) = (xy,0)\); that is, we want
+\(*\) to generalize our familiar notion of multiplication. Next, we would like
+to have \(|(x_1, y_1) * (x_2, y_2)| = |(x_1, y_1)| * |(x_2, y_2)|\), where
+\(|(x,y)| = \sqrt{x^2 + y^2}\) is called the {\em modulus} of a complex number.
+It turns out that defining \((x_1,y_1)*(x_2,y_2) = (x_1x_2-y_1y_2, x_1y_2 + 
+x_2y_1)\) gives us precisely what we wanted; elementary calculation shows that
+the modulus of the product is equal to the product of the moduli and for
+two real numbers \((a,0)\) and \((b,0)\) we have \((a,0)*(b,0) = (ab,0)\).\\
+
+We denote \(R^2\) along with vector addition \(+\) and multiplication as defined
+\(*\) by \(\C\) and call it the complex plane. Further we make frequent use
+of the notation \(i:= (0,1)\). For a complex number \((x,y)\) we denote 
+

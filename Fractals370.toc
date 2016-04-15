@@ -5,4 +5,5 @@
 \contentsline {chapter}{\numberline {3}Sierpinski's Gasket}{5}{chapter.3}
 \contentsline {chapter}{\numberline {4}Measure Theory and Fractal Dimension}{6}{chapter.4}
 \contentsline {chapter}{\numberline {5}Complex Dynamics}{7}{chapter.5}
-\contentsline {chapter}{Index}{8}{chapter.5}
+\contentsline {section}{\numberline {5.1}The Complex Plane}{7}{section.5.1}
+\contentsline {chapter}{Index}{8}{section.5.1}
