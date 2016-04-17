@@ -1,2 +1,153 @@
 \chapter{Measure Theory and Fractal Dimension}
 \label{chap:measure}
+
+Measure theory provides a powerful framework within which the notion of
+dimension can be defined. This is done by analysing the measure of a given
+set with respect to a class of measures called Hausdorff measures. The
+construction of these measures is challenging, and determining the measures
+of sets under them even more so, but the result of our effort is a deep and
+beautiful theory of measure and dimension that justifies the difficulties
+faced in the construction.
+
+We begin with some preliminary measure-theoretic definitions and ideas. Let
+$\mathbb{X}$ be a set. A $\sigma-algebra$ $\mathcal{M}$ of subsets of
+$\mathbb{X}$ is a collection having the following properties:
+   
+\begin{enumerate} 
+  \item $\mathbb{X} \in \mathcal{M}$
+
+  \item If $A \in \mathcal{M}$, then ${A}^c \in \mathcal{M}$.
+
+  \item If $\{A_i\}^\infty_{i=1}$ is a countable collection of sets in
+    $\mathcal{M}$, then $\bigcup\limits_{i=1}^{\infty}A_i \in \mathcal{M}$.
+\end{enumerate}
+
+Other properties can be deduced from the above. For instance, by 1 and 2,
+$\emptyset \in \mathcal{M}$; by 2, 3, and De Morgan's laws, if
+$\{A_i\}^\infty_{i=1}$ is a countable collection of sets in $\mathcal{M}$,
+then $\bigcap\limits_{i=1}^{\infty}A_i \in \mathcal{M}$. Elements of
+$\mathcal{M}$ are called $measurable$. In a topological space, one can define
+a special $\sigma-algebra$ called the Borel $\sigma-algebra$. It is defined
+to be the smallest $\sigma-algebra$ containing all open sets in the
+topological space. Since every metric space is a topological space, every
+metric space gives rise to a unique Borel $\sigma-algebra$ $\mathcal{B}$.
+
+A measure on $\mathcal{M}$ is a set function $\mu:\mathcal{M}\rightarrow\mathbb{R}$ such that:
+  
+\begin{enumerate}
+  \item{1.} $\mu(\emptyset)=0$
+
+  \item{(monotonicity)} If $A,B \in \mathcal{M}$ with $A \subset B$, then
+    $\mu(A)\leq\mu(B)$.
+
+  \item{(countable additivity)} If $\{A_i\}^\infty_{i=1}$ is a countable
+    collection of pairwise disjoint sets in $\mathcal{M}$, then
+    $\mu(\bigcup\limits_{i=1}^{\infty}A_i)=\sum\limits_{i=1}^{\infty}\mu(A_i)$
+\end{enumerate} 
+
+Measures are often constructed by restricting set functions called outer
+measures, with domain $P^\mathbb{X}$, to a $\sigma-algebra$ of sets in
+$P^\mathbb{X}$ satisfying a certain separation condition described below.
+
+An outer measure is a function $\mu^*:P^\mathbb{X}\rightarrow\mathbb{R}$
+satisfying conditions 1 and 2 of a measure, but with condition 3 replaced by
+countable sub-additivity. That is, if $\{A_i\}^\infty_{i=1}$ is a countable
+collection of sets in $P^\mathbb{X}$, then
+$\mu^*(\bigcup\limits_{i=1}^{\infty}A_i)\leq\sum\limits_{i=1}^{\infty}\mu^*(A_i)$.
+Now let $A \in P^\mathbb{X}$. If $\forall B \in P^\mathbb{X}$, we have
+$\mu^*(B)=\mu^*(A \cap B)+\mu^*(A^c \cap B)$ (the separation condition
+described above), then A is said to be measurable. The collection of
+measurable sets in $P^\mathbb{X}$ form a $\sigma-algebra$, and the
+restriction of $\mu^*$ to this $\sigma-algebra$ is a measure.
+
+With the basic terminology of measure theory in place, we are ready to define
+Hausdorff measures. Take $d \in \mathbb{R_+}$, and let $\mathbb{X}$ be a
+metric space. For our purposes, X will be $\mathbb{R}^n$ for some $n \in
+\mathbb{N}$. The d-Hausdorff outer measure, $m_d^*:P^\mathbb{X} \rightarrow
+\mathbb{R}$, is defined for $A \in P^\mathbb{X}$ by: 
+
+$m_d^*(A)=\lim_{\delta \to 0} \inf \{\sum\limits_{i=1}^{\infty}(diam(F_i))^d|A
+\subset \bigcup\limits_{i=1}^{\infty}F_i$, $F_i \in P^\mathbb{X}$, and
+$diam(F_i)<\delta\}$. 
+
+Here, the $\inf$ is being taken over all countable coverings of A by sets $F_i
+\in P^\mathbb{X}$ with $diam(F_i)<\delta$, and $diam(F)=\sup\{\|x-y\||x,y \in
+F\}$, with $\| \|$ the Euclidean norm.
+
+It turns out that $m_d^*$ is what is known as a metric outer measure.
+Omitting the proof, this means that the Borel sets are measurable, and that
+$m_d^*$ restricted to $\mathcal{B}$ is a measure. We denote this measure by
+$m_d$, and note that $m_d:\mathcal{B} \rightarrow \mathbb{R}$. Note that for
+$r \in \mathbb{R}$, $m_d^*(rA)=r^dm_d^*(A)$, as this fact will become
+important later on.   
+
+We are now ready to define the Hausdorff dimension of a set $A \subset
+\mathbb{X}$. The Hausdorff dimension of A, $dim_H(A)$ is defined to be
+$dim_H(A)=inf\{d \in \mathbb{R}| m_d^*(A)=0\}$, where the $\inf$ is taken
+over all $d\geq 0$.
+
+To see why we take the $\inf$ over this set, we first need the following theorem:
+
+\newtheorem{theorem}{Theorem}
+
+\begin{theorem} Suppose for some $d \in \mathbb{R}_+$ and $A \subset
+  \mathbb{X}$ we have $m_d^*(A)<\infty$. Then, $\forall d'>d$, we have
+  $m_{d'}^*(A)=0$.
+\end{theorem}
+
+\begin{proof} Take $d'>d$, $0<\delta<1$, and let $\{A_i\}_{i=1}^\infty$ be such
+  that $\forall i$, $diam(A_i)<\delta$, $A \subset
+  \bigcup\limits_{i=1}^{\infty}A_i$, and
+  $\sum\limits_{i=1}^{\infty}(diam(A_i))^d < \infty$. This last part is
+  possible since $m_d^*(A)<\infty$, so we can choose $\{A_i\}_{i=1}^\infty$ so
+  that $\sum\limits_{i=1}^{\infty}(diam(A_i))^d < m_d^*(A) + 1 < \infty$ . 
+
+  By definition, $\inf \{\sum\limits_{i=1}^{\infty}(diam(F_i))^{d'}|A \subset
+  \bigcup\limits_{i=1}^{\infty}F_i$, $F_i \in P^\mathbb{X}$, and
+  $diam(F_i)<\delta\}\leq \sum\limits_{i=1}^{\infty} (diam(A_i))^{d'}
+  =\sum\limits_{i=1}^{\infty} (diam(A_i)^d)(diam(A_i))^{d'-d}\leq
+  \sum\limits_{i=1}^{\infty}\delta^{d'-d}(diam(A_i))^d = \delta^{d'-d}
+  \sum\limits_{i=1}^{\infty}(diam(A_i))^d$. 
+
+  So, $\inf \{\sum\limits_{i=1}^{\infty}(diam(F_i))^{d'}|A \subset
+  \bigcup\limits_{i=1}^{\infty}F_i$, $F_i \in P^\mathbb{X}$, and
+  $diam(F_i)<\delta\}\leq \delta^{d'-d} \sum\limits_{i=1}^{\infty}(diam(A_i))^d$.
+  Since $\delta <1$ and $d'-d>0$, taking the limit as $\delta \rightarrow 0$
+  yields $m_{d'}^*(A)\leq 0$. Since $m_{d'}^*(A) \geq 0$, we have that
+  $m_{d'}^*(A)=0$.
+\end{proof}
+
+By taking the contrapositive of Theorem 1, we see:
+
+\begin{theorem} Suppose for some $d \in \mathbb{R}_+$ and some $A \subset
+  \mathbb{X}$ we have that $m_d^*(A)>0$. Then, $\forall d'<d$, we have
+  $m_{d'}^*(A)=\infty$.  
+\end{theorem}
+
+  Now consider a unit cube $C$ in $\mathbb{R}^d$. If we divide the length of
+  the side by $2^k$, we can construct a cover consisting of $2^{dk}$ sub-cubes,
+  each of diameter $2^{-k}\sqrt{d}$. If denote this collection by
+  $\{C_i\}_{i=1}^{2^{dk}}$ and sum over $i$, we see that
+  $\sum\limits_{i=1}^{2^{dk}}(diam(C_i))^d
+  =\sum\limits_{i=1}^{2^{dk}}(2^{-k}\sqrt{d})^d=\sqrt{d}^d < \infty$. Since
+  $\forall \delta>0$, we can choose $k$ such that $2^{-k}\sqrt{d}<\delta$, we
+  see that $m_d^*(C)=\inf \{\sum\limits_{i=1}^{\infty}(diam(F_i))^d|C \subset
+  \bigcup\limits_{i=1}^{\infty}F_i$, $F_i \in P^\mathbb{X}$, and
+$diam(F_i)<\delta\} \leq \sqrt{d}^d < \infty$. Since $m_d^*(C)<\infty$, we see
+by theorem 1 that $dim_H(C) \leq d$. 
+  
+  It is also true, but harder to prove, that $m_d^*(C)>0$. This fact and
+  theorem 2 together tell us that $dim_H(C) \geq d$. Therefore, $dim_H(C)=d$.
+  
+  By the scaling property described above, we see that for $r>0$,
+  $m_d^*(rC)=r^{d}m_d^*(C)$, so that every cube in $\mathbb{R}^d$ has finite,
+  positive, d-Hausdorff outer measure, and so must have Hausdorff dimension
+  $d$. Moreover, since every bounded set is a subset of some cube, and since
+  the d-Hausdorff outer measure is monotonic, we see that every bounded set $A$
+  has $m_d^*(A)<\infty$. Therefore, every bounded set in $\mathbb{R}^d$ has
+  $dim_H(A) \leq d$. The reason we cannot assume that the Hausdorff dimension
+  of every set $A \subset \mathbb{R}^d$ is precisely $d$ is because it may be
+  that $m_d^*(A)=0$. In this case, theorem 2 does not apply and thus cannot
+  give us a lower bound on the Hausdorff dimension of the set $A$.
+
+  
